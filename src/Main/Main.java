@@ -13,6 +13,8 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("../sample/sample.fxml"));
         primaryStage.setTitle("CurrencyConverter");
         primaryStage.setScene(new Scene(root, 500, 250));
+        primaryStage.setMinWidth(380);
+        primaryStage.setMinHeight(100);
         primaryStage.show();
     }
 

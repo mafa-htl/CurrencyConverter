@@ -37,13 +37,13 @@
             </HBox>
             <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                <children>
-                  <TextField maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="120.0" promptText="1" />
-                <Button maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="80.0" text="Convert">
+                  <TextField fx:id="euroField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="120.0" promptText="1" />
+                <Button onAction="#doConversion" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="80.0" text="Convert">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </Button>
-                  <TextField maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="120.0" promptText="124" />
+                  <TextField fx:id="yenField" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="120.0" promptText="124" />
                </children>
             </HBox>
          </children>
